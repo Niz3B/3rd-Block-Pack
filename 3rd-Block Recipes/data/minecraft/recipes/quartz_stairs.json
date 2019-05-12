@@ -1,0 +1,18 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 quartz stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+	    "item": "minecraft:quartz_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:quartz_stairs",
+        "count": 6
+    }
+}

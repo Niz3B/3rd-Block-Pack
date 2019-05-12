@@ -1,0 +1,18 @@
+{
+    "__comment": "Replaces the default recipe to craft 4 ladders instead of 3.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "/ /",
+        "///",
+        "/ /"
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:ladder",
+        "count": 4
+    }
+}

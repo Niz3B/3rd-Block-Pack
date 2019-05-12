@@ -1,0 +1,26 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 sandstone stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+	"key": {
+		"#": [
+			{
+				"item": "minecraft:sandstone"
+			},
+			{
+				"item": "minecraft:chiseled_sandstone"
+			},
+			{
+				"item": "minecraft:cut_sandstone"
+			}
+		]
+	},
+    "result": {
+        "item": "minecraft:sandstone_stairs",
+        "count": 6
+    }
+}

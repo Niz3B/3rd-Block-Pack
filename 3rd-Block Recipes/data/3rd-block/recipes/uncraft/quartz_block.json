@@ -1,0 +1,13 @@
+{
+    "__comment": "Crafts 4 quartz from 1 quartz block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:quartz_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:quartz",
+        "count": 4
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 prismarine stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:prismarine"
+        }
+    },
+    "result": {
+        "item": "minecraft:prismarine_stairs",
+        "count": 6
+    },
+	"group": "prismarine_stairs"
+}

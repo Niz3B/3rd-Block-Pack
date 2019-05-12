@@ -1,0 +1,48 @@
+{
+	"__comment": "Unlocks bricks from terracotta recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_dirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:dirt"
+					}
+				]
+			}
+		},
+		"has_wheat_seeds": {
+      "trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:wheat_seeds"
+					}
+				]
+			}
+		},
+    "has_grass_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:grass_block"
+          }
+        ]
+      }
+    }
+	},
+	"requirements": [
+		[
+			"has_dirt",
+			"has_wheat_seeds",
+      "has_grass_block"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:grass"
+		]
+	}
+}

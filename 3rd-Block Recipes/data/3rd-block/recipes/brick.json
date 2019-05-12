@@ -1,0 +1,13 @@
+{
+    "__comment": "Crafts 4 bricks from any terracotta block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "3rd-block:terracotta"
+        }
+    ],
+    "result": {
+        "item": "minecraft:brick",
+        "count": 4
+    }
+}

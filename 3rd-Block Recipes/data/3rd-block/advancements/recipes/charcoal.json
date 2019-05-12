@@ -1,0 +1,37 @@
+{
+	"__comment": "Unlocks the bricks from terracotta recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_rotten_flesh": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:rotten_flesh"
+					}
+				]
+			}
+		},
+		"has_poisonous_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:poisonous_potato"
+          }
+        ]
+      }
+		}
+	},
+	"requirements": [
+		[
+			"has_rotten_flesh",
+			"has_poisonous_potato"
+		]
+	],
+	"rewards": {
+		"recipes": [
+				"3rd-block:charcoal"
+			]
+	}
+}

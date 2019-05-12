@@ -1,0 +1,25 @@
+
+{
+    "__comment": "Crafts 1 fire coral block from 9 fire corals or fire coral fans.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+	    	"###"
+    ],
+    "key": {
+        "#": [
+          {
+            "item": "minecraft:fire_coral"
+          },
+          {
+            "item": "minecraft:fire_coral_fan"
+          }
+        ]
+    },
+    "result": {
+        "item": "minecraft:fire_coral_block",
+        "count": 1
+    },
+	"group": "coral_blocks"
+}

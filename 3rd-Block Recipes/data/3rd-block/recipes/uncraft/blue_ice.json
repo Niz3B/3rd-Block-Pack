@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafts 9 packed ice blocks from 1 blue ice block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:blue_ice"
+        }
+    ],
+    "result": {
+        "item": "minecraft:packed_ice",
+        "count": 9
+    },
+	"group": "packed_ice"
+}

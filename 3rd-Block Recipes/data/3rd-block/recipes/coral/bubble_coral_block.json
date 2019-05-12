@@ -1,0 +1,26 @@
+
+{
+    "__comment": "Crafts 1 bubble coral block from 9 bubble corals or bubble coral fans.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+		    "###"
+    ],
+    "key": {
+        "#": [
+          {
+            "item": "minecraft:bubble_coral"
+          },
+          {
+            "item": "minecraft:bubble_coral_fan"
+          }
+        ]
+    },
+    "result": {
+        "item": "minecraft:bubble_coral_block",
+        "count": 1
+    },
+	"group": "coral_blocks"
+}
+s

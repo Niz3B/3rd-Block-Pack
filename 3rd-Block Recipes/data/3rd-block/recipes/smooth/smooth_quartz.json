@@ -1,0 +1,19 @@
+
+{
+    "__comment": "Crafts 2 smooth quartz block from 4 quartz slabs.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:quartz_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:smooth_quartz",
+        "count": 2
+    },
+    "group": "smooth_blocks"
+}

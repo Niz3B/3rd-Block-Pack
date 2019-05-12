@@ -1,0 +1,14 @@
+
+{
+    "__comment": "Crafts 2 sandstone slabs from 1 smooth sandstone block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:smooth_sandstone"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sandstone_slab",
+        "count": 2
+    }
+}

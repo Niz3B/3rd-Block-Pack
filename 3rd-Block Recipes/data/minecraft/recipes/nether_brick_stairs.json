@@ -1,0 +1,18 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 nether brick stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:nether_brick_stairs",
+        "count": 6
+    }
+}

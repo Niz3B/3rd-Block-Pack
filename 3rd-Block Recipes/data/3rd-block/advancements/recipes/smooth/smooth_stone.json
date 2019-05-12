@@ -1,0 +1,45 @@
+{
+	"__comment": "Unlocks the smooth stone block recipes.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stone_slab"
+					}
+				]
+			}
+		},
+		"has_smooth_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:smooth_stone"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "3rd-block:smooth/smooth_stone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stone_slab",
+			"has_smooth_stone",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:smooth/smooth_stone",
+			"3rd-block:smooth/stone_slab"
+		]
+	}
+}

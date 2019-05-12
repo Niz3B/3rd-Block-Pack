@@ -1,0 +1,26 @@
+{
+	"__comment": "Unlocks the snowball from snow recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_snow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:snow"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_snow"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:snowball"
+		]
+	}
+}

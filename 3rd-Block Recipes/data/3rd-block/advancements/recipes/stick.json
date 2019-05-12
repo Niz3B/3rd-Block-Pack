@@ -1,0 +1,26 @@
+{
+	"__comment": "Unlocks the stick from arrow recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_arrow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:arrow"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_arrow"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:stick"
+		]
+	}
+}

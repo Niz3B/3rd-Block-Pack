@@ -1,0 +1,18 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 purpur stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:purpur_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:purpur_stairs",
+        "count": 6
+    }
+}

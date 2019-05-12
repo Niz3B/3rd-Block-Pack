@@ -1,0 +1,33 @@
+{
+	"__comment": "Unlocks the uncraft quartz block recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_quartz_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:quartz_block"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:quartz_block"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_quartz_block",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:uncraft/quartz_block"
+		]
+	}
+}

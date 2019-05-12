@@ -1,0 +1,45 @@
+{
+	"__comment": "Unlocks the smooth red sandstone block recipes.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_red_sandstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:red_sandstone_slab"
+					}
+				]
+			}
+		},
+		"has_smooth_red_sandstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:smooth_red_sandstone"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "3rd-block:smooth/smooth_red_sandstone"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_red_sandstone_slab",
+			"has_smooth_red_sandstone",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:smooth/smooth_red_sandstone",
+			"3rd-block:smooth/red_sandstone_slab"
+		]
+	}
+}

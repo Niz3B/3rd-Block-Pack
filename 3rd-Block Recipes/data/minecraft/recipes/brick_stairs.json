@@ -1,0 +1,18 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 brick stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:brick_stairs",
+        "count": 6
+    }
+}

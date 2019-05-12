@@ -1,0 +1,25 @@
+
+{
+    "__comment": "Crafts 1 brain coral block from 9 brain corals or brain coral fans.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+	    	"###"
+    ],
+    "key": {
+        "#": [
+          {
+            "item": "minecraft:brain_coral"
+          },
+          {
+            "item": "minecraft:brain_coral_fan"
+          }
+        ]
+    },
+    "result": {
+        "item": "minecraft:brain_coral_block",
+        "count": 1
+    },
+	"group": "coral_blocks"
+}

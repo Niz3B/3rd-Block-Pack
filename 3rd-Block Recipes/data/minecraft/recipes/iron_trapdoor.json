@@ -1,0 +1,17 @@
+{
+    "__comment": "Replaces the default recipe to craft 2 iron trapdoors instead of 1.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "ii",
+        "ii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:iron_trapdoor",
+        "count": 2
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafts 4 snowballs from 1 snow block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:snow_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:snowball",
+        "count": 4
+    },
+    "group": "snowball"
+}

@@ -1,0 +1,13 @@
+{
+    "__comment": "Crafts 1 leather from any leather equipment.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "3rd-block:leather_equip"
+        }
+    ],
+    "result": {
+        "item": "minecraft:leather",
+        "count": 1
+    }
+}

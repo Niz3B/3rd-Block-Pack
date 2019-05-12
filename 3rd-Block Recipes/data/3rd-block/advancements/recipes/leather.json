@@ -1,0 +1,26 @@
+{
+	"__comment": "Unlocks the leather from leather equipment.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_leather_equip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "3rd-block:leather_equip"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_leather_equip"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:leather"
+		]
+	}
+}

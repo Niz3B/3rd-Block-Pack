@@ -1,0 +1,18 @@
+{
+  "__comment": "Replaces the default recipe to craft 6 oak trapdoors instead of 2.",
+  "type": "crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_trapdoor",
+    "count": 6
+  }
+}

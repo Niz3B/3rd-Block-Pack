@@ -1,0 +1,18 @@
+{
+    "__comment": "Crafts 2 smooth stone block from 4 stone slabs.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:smooth_stone",
+        "count": 2
+    },
+    "group": "smooth_blocks"
+}

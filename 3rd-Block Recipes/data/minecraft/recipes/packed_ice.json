@@ -1,0 +1,19 @@
+{
+    "__comment": "Replaces the default recipe to put it into the packed_ice group.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+	    	"###"
+    ],
+    "key": {
+        "#": {
+          "item": "minecraft:ice"
+        }
+    },
+    "result": {
+        "item": "minecraft:packed_ice",
+        "count": 1
+    },
+	"group": "packed_ice"
+}

@@ -1,0 +1,26 @@
+{
+	"__comment": "Unlocks the diamond from diamond equipment.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond_equip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "3rd-block:diamond_equip"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond_equip"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:diamond"
+		]
+	}
+}

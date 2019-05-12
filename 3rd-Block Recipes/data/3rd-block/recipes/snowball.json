@@ -1,0 +1,14 @@
+{
+    "__comment": "Crafts 1 snowball from 1 snow layer.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:snow"
+        }
+    ],
+    "result": {
+        "item": "minecraft:snowball",
+        "count": 2
+    },
+    "group": "snowball"
+}

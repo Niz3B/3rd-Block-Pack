@@ -1,0 +1,33 @@
+{
+	"__comment": "Unlocks the bricks from terracotta recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_terracotta": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"tag": "3rd-block:terracotta"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:brick"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_terracotta",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:brick"
+		]
+	}
+}

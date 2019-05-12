@@ -1,0 +1,37 @@
+{
+	"__comment": "Unlocks the fire coral block recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_coral": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fire_coral"
+					}
+				]
+			}
+		},
+		"has_fan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:fire_coral_fan"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_coral",
+			"has_fan"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:coral/fire_coral_block"
+		]
+	}
+}

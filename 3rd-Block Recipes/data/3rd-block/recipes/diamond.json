@@ -1,0 +1,13 @@
+{
+    "__comment": "Crafts 1 diamond from any diamond equipment.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "3rd-block:diamond_equip"
+        }
+    ],
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 1
+    }
+}

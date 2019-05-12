@@ -1,0 +1,20 @@
+{
+    "__comment": "Crafts 1 grass block from 1 dirt block and wheat seeds.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#",
+        "D"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat_seeds"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        }
+    },
+    "result": {
+        "item": "minecraft:grass_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,33 @@
+{
+	"__comment": "Unlocks the uncraft packed ice recipe.",
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_packed_ice": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:packed_ice"
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "minecraft:packed_ice"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_packed_ice",
+			"has_the_recipe"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"3rd-block:uncraft/packed_ice"
+		]
+	}
+}

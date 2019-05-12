@@ -1,0 +1,20 @@
+{
+    "type": "smelting",
+    "ingredient": [
+        {
+           "item": "minecraft:rotten_flesh"
+         },
+         {
+           "item": "minecraft:poisonous_potato"
+         },
+         {
+           "item": "minecraft:pufferfish"
+         },
+         {
+           "item": "minecraft:spider_eye"
+         }
+      ],
+    "result": "minecraft:charcoal",
+    "experience": 0.1,
+    "cookingtime": 200
+}

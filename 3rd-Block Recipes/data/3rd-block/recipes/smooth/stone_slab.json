@@ -1,0 +1,13 @@
+{
+    "__comment": "Crafts 2 stone slabs from 1 smooth stone block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:smooth_stone"
+        }
+    ],
+    "result": {
+        "item": "minecraft:stone_slab",
+        "count": 2
+    }
+}

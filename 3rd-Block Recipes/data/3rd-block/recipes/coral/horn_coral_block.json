@@ -1,0 +1,25 @@
+
+{
+    "__comment": "Crafts 1 horn coral block from 9 horn corals or horn coral fans.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+    		"###"
+    ],
+    "key": {
+        "#": [
+          {
+            "item": "minecraft:horn_coral"
+          },
+          {
+            "item": "minecraft:horn_coral_fan"
+          }
+        ]
+    },
+    "result": {
+        "item": "minecraft:horn_coral_block",
+        "count": 1
+    },
+	"group": "coral_blocks"
+}

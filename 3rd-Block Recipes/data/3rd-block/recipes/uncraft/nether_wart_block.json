@@ -1,0 +1,13 @@
+{
+    "__comment": "Crafts 9 nether warts from 1 nether wart block.",
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:nether_wart_block"
+        }
+    ],
+    "result": {
+        "item": "minecraft:nether_wart",
+        "count": 9
+    }
+}

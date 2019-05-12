@@ -1,0 +1,18 @@
+{
+  "__comment": "Crafts 4 oak wood blocks from 4 oak logs.",
+  "type": "crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_wood",
+    "count": 4
+  }
+}

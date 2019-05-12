@@ -1,0 +1,18 @@
+{
+    "__comment": "Replaces the default recipe to craft 6 stone brick stairs instead of 4.",
+    "type": "crafting_shaped",
+    "pattern": [
+        "#  ",
+        "## ",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:stone_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_brick_stairs",
+        "count": 6
+    }
+}
